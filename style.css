@@ -1,0 +1,86 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-link{
+    color: #736767;
+    font-weight: bold;
+    background-color: #f6f6f6;
+}
+
+h2, h3, h4, h5 {
+    font-weight: lighter;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+a {
+    color: #416ed6;
+}
+
+body {
+    color: #736767;
+}
+
+.nombre {
+    font-style: italic;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    background-color: rgba(9, 30, 175, 0.11);
+    padding: 10px;
+}
+
+.grid-container > div {
+    background-color: rgba(107, 132, 200, 0.29);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.texto-negrita {
+    font-weight: bold;
+    color: rgba(37, 93, 198, 0.76);
+}
+
+.mini-descripcion {
+    font-style: italic;
+    font-size: 15px;
+}
+
+.imagen-perfil{
+    opacity: 0.7;
+    padding: 10px;
+}
+
+.formulario {
+    background-color: #f6f6f6;
+}
+
+label{
+    font-weight: bold;
+}
+
+button[type="submit"] {
+    background-color: #0074d9;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.footer {
+    background-color: #416ed6;
+    font-weight: bolder;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
